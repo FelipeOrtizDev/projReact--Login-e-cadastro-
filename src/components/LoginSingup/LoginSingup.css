@@ -1,0 +1,135 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 35%;
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 5%;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #924fff;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: #924fff;
+    border-radius: 9px;
+
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+    
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+    
+    animation: go-back 0.5s  alternate ;
+    animation-iteration-count: 1;
+    
+    
+}
+
+@keyframes go-back {
+    from {
+        transform: translateY(50px);
+        
+        
+    }
+    to {
+        transform: translateY(0px);
+        
+        
+    }
+}
+
+.input img{
+    margin: 0px 30px ;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+}
+.forgot-password {
+
+    color: #797979;
+    font-size: 18px;
+    padding-left: 13.5%;
+    margin-top: 10px;
+    
+
+}
+
+.forgot-password span {
+    color: #924fff;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.submit-container {
+    display: flex;
+    gap: 40px;
+    margin: 60px auto;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #924fff;
+    border-radius: 2.5%;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+}
+
+.gray:hover {
+    color: #eaeaea;
+    background: #924fff;   
+    transition: 0.5s ;
+    
+}
+
